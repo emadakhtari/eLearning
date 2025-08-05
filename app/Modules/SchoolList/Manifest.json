@@ -1,0 +1,23 @@
+{
+    "title": "SchoolList",
+    "status": "Active",
+    "version": "title",
+    "date": "12344",
+    "copyright": "eLearning",
+    "type": "public",
+    "permissions": {
+        "admin": [
+            {
+                "Edit": [
+                    "SchoolList.Edit.View",
+                    "SchoolList.Edit"
+                ]
+            },
+            {
+                "List": [
+                    "SchoolList.List.View"
+                ]
+            }
+        ]
+    }
+}
