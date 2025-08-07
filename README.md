@@ -85,7 +85,7 @@ php artisan serve
 
 
 ## ☎️ Contact Me
-Developer: Emad Akhtari
-📧 Email: [akhtari.em1@gmail.com]
-🔗 GitHub: https://github.com/emadakhtari
+- Developer: Emad Akhtari
+- 📧 Email: [akhtari.em1@gmail.com]
+- 🔗 GitHub: https://github.com/emadakhtari
 
