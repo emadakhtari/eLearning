@@ -1,0 +1,18 @@
+{
+  "title": "Setting",
+  "status": "Active",
+  "version": "title",
+  "date": "12344",
+  "copyright": "0ta100",
+  "type": "public",
+  "permissions": {
+    "admin": [
+      {
+        "Edit": [
+          "Setting.Edit.View",
+          "Setting.Edit"
+        ]
+      }
+    ]
+  }
+}
