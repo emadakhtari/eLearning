@@ -88,9 +88,3 @@ php artisan serve
 - Developer: Emad Akhtari
 - 📧 Email: [akhtari.em1@gmail.com]
 - 🔗 GitHub: https://github.com/emadakhtari
-
-
-About
-Php Laravel - Multi access for Admin , school principal , school administrator , teacher , parents , student - eLearning - Bigbluebutton Persianized - All lessons, assignments, etc., are implemented on the calendar
-
-<img width="468" height="649" alt="image" src="https://github.com/user-attachments/assets/dba5b1c8-1873-4493-b70b-1017d811c110" />
