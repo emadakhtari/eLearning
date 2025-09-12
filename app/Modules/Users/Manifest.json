@@ -1,0 +1,30 @@
+{
+    "title": "Users",
+    "status": "Active",
+    "version": "title",
+    "date": "12344",
+    "copyright": "eLearning",
+    "type": "public",
+    "permissions": {
+        "admin": [
+            {
+                "Add": [
+                    "Users.Add.View",
+                    "Users.Add"
+                ]
+            },
+            {
+                "Edit": [
+                    "Users.Edit.View",
+                    "Users.Edit"
+                ]
+            },
+            {
+                "List": [
+                    "Users.List.View"
+                ]
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,616 @@
+.form-group label.error{
+    color: red;
+    font-size: 10px;
+}
+.clear{
+    clear: both;
+}
+.counter-value {
+    margin-left: 6px !important;
+}
+.border-bottom-dashed {
+    border-bottom: 1px #727E8C dashed;
+}
+#modules_user .custom-switch {
+    display: inline-block;
+}
+.custom-switch-status .custom-control-label::before {
+    background-color: #FF5B5C ;
+}
+.eIcov{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+.eIcov i{
+    font-size: 31px;
+    cursor: pointer;
+}
+.eIcov *:hover{
+    color: red;
+}
+.custom-switch-status .switch-icon-right i {
+    color: white;
+}
+#deleteImgBtn{
+    padding: 7px;
+}
+#deleteImgBtn i{
+    display: inline-block !important;
+    font-size: 25px!important;
+    color: #fff!important;
+    width: 27px !important;
+}
+#deleteImgBtn1{
+    padding: 7px;
+}
+#deleteImgBtn1 i{
+    display: inline-block !important;
+    font-size: 25px!important;
+    color: #fff!important;
+    width: 27px !important;
+}
+#deleteImgBtn2{
+    padding: 7px;
+}
+#deleteImgBtn2 i{
+    display: inline-block !important;
+    font-size: 25px!important;
+    color: #fff!important;
+    width: 27px !important;
+}
+#deleteImgBtn3{
+    padding: 7px;
+}
+#deleteImgBtn3 i{
+    display: inline-block !important;
+    font-size: 25px!important;
+    color: #fff!important;
+    width: 27px !important;
+}
+
+
+
+
+
+/*UPLOADER*/
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 100%;
+    width: 100%;
+    /* 20px */
+    cursor: pointer;
+    display: inline-block;
+    /* 10px 20px */
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+}
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.image-lable svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+
+/* style 4 */
+
+.inputfile-4 + label {
+}
+
+.inputfile-4:focus + label,
+.inputfile-4.has-focus + label,
+.inputfile-4 + label:hover {
+}
+
+.inputfile-4 + label figure {
+    margin: 5% 5% 0 5% !important;
+    border-radius: 10px 10px 0 0;
+    display: block;
+    border-top: 1px dashed #EEEEEE;
+    border-right: 1px dashed #EEEEEE;
+    border-left: 1px dashed #EEEEEE;
+}
+
+.inputfile-4:focus + label figure,
+.inputfile-4.has-focus + label figure,
+.inputfile-4 + label:hover figure {
+}
+
+.inputfile-4 + label svg {
+    width: 100%;
+    height: 100%;
+    fill: #f1e5e6;
+}
+
+/* style 6 */
+
+.inputfile-6 + label {
+
+}
+
+
+.image-lable {
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.inputfile-6 + label span {
+    min-height: 2em;
+    font-size: 10px;
+    color: #999999;
+    display: inline-block;;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.image-lable {
+    height: 100%;
+    color: #999999;
+    background-color: #e9e9e9;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 50em) {
+    .inputfile-6 + label strong {
+        display: block;
+    }
+}
+
+.cropHolder {
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+}
+
+.image-lable {
+    padding: 3px 15px 0 !important;
+}
+
+.uploader-text-icon {
+    padding: 5px 15px 0 !important;
+}
+
+.complte-inputfile {
+    position: relative;
+}
+
+.complte-inputfile label.error {
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    right: 0;
+}
+
+#croppedImg {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin: auto;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+
+.uploader-text-icon {
+    position: absolute;
+    left: 5px;
+}
+.main-menu .navbar-header .navbar-brand .brand-text {
+    font-size: .9rem !important;
+}
+.main-menu .navbar-header .navbar-brand .brand-logo .logo {
+    height: auto !important;
+    top: -9px !important;
+    width: 30px !important;
+    right: 5px !important;
+}
+.navbar-header .navbar-brand {
+    margin-left: 0 !important;
+}
+.navbar-header .modern-nav-toggle {
+    position: relative;
+    right: 5px;
+}
+.main-menu .navbar-header .navbar-brand .brand-logo {
+    margin-right: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** SCROLLBAR BASE CSS ***************/
+
+.scroll-wrapper {
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+.scroll-wrapper > .scroll-content {
+    border: none !important;
+    box-sizing: content-box !important;
+    height: auto;
+    left: 0;
+    margin: 0;
+    max-height: none;
+    max-width: none !important;
+    overflow: scroll !important;
+    padding: 0;
+    position: relative !important;
+    top: 0;
+    width: auto !important;
+}
+
+.scroll-wrapper > .scroll-content::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.scroll-element {
+    display: none;
+}
+.scroll-element, .scroll-element div {
+    box-sizing: content-box;
+}
+
+.scroll-element.scroll-x.scroll-scrollx_visible,
+.scroll-element.scroll-y.scroll-scrolly_visible {
+    display: block;
+}
+
+.scroll-element .scroll-bar,
+.scroll-element .scroll-arrow {
+    cursor: default;
+}
+
+.scroll-textarea {
+    border: 1px solid #cccccc;
+    border-top-color: #999999;
+}
+.scroll-textarea > .scroll-content {
+    overflow: hidden !important;
+}
+.scroll-textarea > .scroll-content > textarea {
+    border: none !important;
+    box-sizing: border-box;
+    height: 100% !important;
+    margin: 0;
+    max-height: none !important;
+    max-width: none !important;
+    overflow: scroll !important;
+    outline: none;
+    padding: 2px;
+    position: relative !important;
+    top: 0;
+    width: 100% !important;
+}
+.scroll-textarea > .scroll-content > textarea::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+
+
+.card {
+    height: auto !important;
+}
+.scrollbar-external_wrapper {
+    height: auto !important;
+    position: relative;
+    width: auto !important;
+}
+.table{
+}
+.scroll-bar {
+
+}
+.scrollbar-external {
+
+    max-height: 700px;
+    overflow: auto;
+    width: 100%;
+}
+
+/******************* EXTERNAL SCROLLBAR *******************/
+
+.external-scroll_x,
+.external-scroll_y {
+    border: solid 1px #ccc;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+}
+
+.external-scroll_x.scroll-scrollx_visible {
+    display: block;
+    height: 10px;
+    left: 0;
+    top: auto;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.external-scroll_y.scroll-scrolly_visible {
+    display: block;
+    height: 90%;
+    left: auto;
+    top: 5%;
+    right: 7px;
+    width: 10px;
+}
+
+.external-scroll_x div,
+.external-scroll_y div
+{
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.external-scroll_x .scroll-bar,
+.external-scroll_y .scroll-bar {
+    background: #727E8C;
+    z-index: 12;
+}
+
+.external-scroll_x .scroll-bar {
+    width: 100px;
+}
+.external-scroll_y .scroll-bar {
+    height: 100px;
+}
+.dt-checkboxes-select-all .checkbox{
+   display: none !important;
+}
+#table-extended-chechbox_filter {
+    padding: 20px 20px 0 0;
+    margin-bottom: 0;
+}
+.table- i.bx-x{
+    display: none;
+    color: red;
+    font-size: 22px;
+    position: relative;
+    left: 4px;
+    transition: all .2s ease-in-out;
+}
+.table- i.bx-x:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc_disabled:before {
+    right: 8px !important;
+}
+.table.dataTable thead .sorting:before, .table.dataTable thead .sorting:after, .table.dataTable thead .sorting_asc:before, .table.dataTable thead .sorting_asc:after, .table.dataTable thead .sorting_desc:before, .table.dataTable thead .sorting_desc:after {
+    left: auto;
+}
+.edit-btn{
+    float: right;
+}
+.table td, .table th {
+    padding: 0.15rem 1.5rem;
+    text-align: center;
+}
+.custom-file-label::after {
+    font-size: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+#btnVerify {
+    color: #ffffff;
+    cursor: pointer;
+}
+#disabled{
+    color: #ffffff;
+    opacity: .5;
+    cursor: auto !important;
+}
+.main-menu.menu-light .navigation>li {
+    margin: 0 1rem 1rem;
+}
+.float-right {
+    float:right !important;
+}
+.float-left {
+    float:left !important;
+}
+.float-none {
+    float:none !important;
+}
+label#province-error{
+    position: absolute;
+    right: 19px;
+    bottom: -25px;
+}
+
+label#city-error{
+    position: absolute;
+    right: 19px;
+    bottom: -25px;
+}
+
+label#address-error{
+    position: absolute;
+    right: 19px;
+    bottom: -25px;
+}
+
+.stocks_listBtn {
+    width: 100%;
+    margin-top: 35px;
+    color: #fff !important;
+    cursor: pointer;
+}
+#scrollbar-externalSchoolAdd {
+    max-height: 300px;
+    overflow: auto;
+    width: 100%;
+}
+#assignResult .external-scroll_y.scroll-scrolly_visible {
+    right: -11px;
+}
+
+#resultSchoolList .scrollbar-external {
+    max-height: 400px;
+}
+#resultSchoolList .external-scroll_y.scroll-scrolly_visible {
+    right: 0;
+}
+.deleteClass{
+    cursor: pointer;
+    color: #ffffff !important;
+}
+.dtp{
+    direction: ltr;
+}
+.weekBox {
+    float: right;
+    margin: 10px;
+    border: 2px solid;
+    width: 100px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #0b0b0b;
+}
+.time_number {
+    float: right;
+    margin: 10px;
+    border: 2px solid;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+.time_number:hover{
+    border: 3px solid;
+    background: #5A8DEE;
+    cursor: pointer;
+    color: #fff;
+}
+
+#weekTable span.weekDay{
+    position: relative;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    display: inline-block;
+    cursor: pointer;
+    border: 3px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100px;
+    margin: 7px;
+    float: right;
+}
+
+#weekTable  .plan input, #weekTable  .payment-plan input, #weekTable  .payment-type input{
+    display: none;
+}
+
+#weekTable label{
+    position: relative;
+    color: #fff;
+    background-color: #aaa;
+    font-size: 26px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    display: inline-block;
+    cursor: pointer;
+    border: 3px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* float: right; */
+    box-sizing: border-box;
+    width: 100px;
+    margin: 7px;
+    padding: 0;
+}
+
+#weekTable .plan input:checked + label, #weekTable .payment-plan input:checked + label, #weekTable .payment-type input:checked + label{
+    border: 3px solid #333;
+    background-color: #2fcc71;
+}
+
+#weekTable .plan input:checked + label:after, Form .payment-plan input:checked + label:after, #weekTable .payment-type input:checked + label:after{
+    content: "\2713";
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    border: 2px solid #333;
+    background-color: #2fcc71;
+    z-index: 999;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+.plan span.spanWeek {
+    display: inline-block;
+    float: right;
+}
+#lessonCurName {
+    text-align: center;
+    width: auto;
+    border: none;
+    font-weight: bold;
+    color: #5A8DEE;
+    display: inline-block;
+}
+#teacherCurName {
+    text-align: center;
+    width: auto;
+    border: none;
+    font-weight: bold;
+    color: #5A8DEE;
+    display: inline-block;
+}

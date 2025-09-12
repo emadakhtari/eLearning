@@ -1,0 +1,29 @@
+{
+  "title": "Base",
+  "status": "Active",
+  "version": "title",
+  "date": "12344",
+  "copyright": "eLearning",
+  "type": "public",
+  "permissions": {
+    "admin": [
+      {
+        "Add": [
+          "Base.Add.View",
+          "Base.Add"
+        ]
+      },
+      {
+        "Edit": [
+          "Base.Edit.View",
+          "Base.Edit"
+        ]
+      },
+      {
+        "List": [
+          "Base.List.View"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Lesson",
+  "status": "Active",
+  "version": "title",
+  "date": "12344",
+  "copyright": "eLearning",
+  "type": "public",
+  "permissions": {
+    "admin": [
+      {
+        "Add": [
+          "Lesson.Add.View",
+          "Lesson.Add"
+        ]
+      },
+      {
+        "Edit": [
+          "Lesson.Edit.View",
+          "Lesson.Edit"
+        ]
+      },
+      {
+        "List": [
+          "Lesson.List.View"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Deputy",
+    "status": "Active",
+    "version": "title",
+    "date": "12344",
+    "copyright": "eLearning",
+    "type": "public",
+    "permissions": {
+        "admin": [
+        ]
+    }
+}
+

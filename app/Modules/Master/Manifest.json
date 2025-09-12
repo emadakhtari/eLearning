@@ -1,0 +1,20 @@
+{
+  "title": "Master",
+  "status": "Active",
+  "version": "title",
+  "date": "12344",
+  "copyright": "0ta100",
+  "type": "protected",
+  "permissions": {
+    "admin": [
+      {
+        "pr": "فارسی",
+        "en": "English"
+      },
+      {
+        "pr": "فارسی",
+        "en": "English"
+      }
+    ]
+  }
+}

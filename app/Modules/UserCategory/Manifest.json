@@ -1,0 +1,29 @@
+{
+  "title": "UserCategory",
+  "status": "Active",
+  "version": "title",
+  "date": "12344",
+  "copyright": "eLearning",
+  "type": "public",
+  "permissions": {
+    "admin": [
+      {
+        "Add": [
+          "UserCategory.Add.View",
+          "UserCategory.Add"
+        ]
+      },
+      {
+        "Edit": [
+          "UserCategory.Edit.View",
+          "UserCategory.Edit"
+        ]
+      },
+      {
+        "List": [
+          "UserCategory.List.View"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Grade",
+  "status": "Active",
+  "version": "title",
+  "date": "12344",
+  "copyright": "eLearning",
+  "type": "public",
+  "permissions": {
+    "admin": [
+      {
+        "Add": [
+          "Grade.Add.View",
+          "Grade.Add"
+        ]
+      },
+      {
+        "Edit": [
+          "Grade.Edit.View",
+          "Grade.Edit"
+        ]
+      },
+      {
+        "List": [
+          "Grade.List.View"
+        ]
+      }
+    ]
+  }
+}
